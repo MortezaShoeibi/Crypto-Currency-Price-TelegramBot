@@ -12,7 +12,7 @@ def send_welcome(message):
 
 
 @bot.message_handler(commands=['help'])
-def send_welcome(message):
+def send_help(message):
     bot.reply_to(message, "send the digital currency symbol and get its price easily")
 
 
